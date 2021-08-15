@@ -1,0 +1,22 @@
+body {
+  border: 3px inset purple;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  /* padding-top: 50px; */
+}
+img {
+  height: 180px;
+  width: 170px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  /* rotate: right; */
+  transform: rotate(270deg);
+  margin-top: 50px;
+}
+h1,
+span {
+  display: block;
+  text-align: center;
+}
