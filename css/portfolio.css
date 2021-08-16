@@ -1,3 +1,13 @@
+head{
+  
+  text-align: center;
+  background-color: maroon;
+  color: white;
+  font-size: 3em;
+  font-family: cursive;
+}
+}
+
 body {
   border: 3px inset purple;
   margin: 0;
@@ -21,20 +31,17 @@ span {
   display: block;
   text-align: center; */
 }
-header{
-  text-align: center;
-  background-color: maroon;
-  color: white;
-  font-size: 3em;
-  font-family: cursive;
-}
+
 section{
   text-align: left;
   background-color: teal;
+  padding: left;
 }
 article{
   text-align: right;
   background-color: tomato;
+  padding: right;
+
 }
 footer{
   text-align: left;
