@@ -13,8 +13,8 @@ body {
   display: block;
   margin: auto;
   /* rotate: right; */
-  transform: rotate(270deg);
-  margin-top: 50px; */
+  /* transform: rotate(270deg);
+  /* margin-top: 50px; */  
 }
 /* h1,
 span {
@@ -27,5 +27,15 @@ header{
   color: white;
   font-size: 3em;
   font-family: cursive;
-
+}
+section{
+  text-align: left;
+  background-color: teal;
+}
+article{
+  text-align: right;
+  background-color: tomato;
+}
+footer{
+  text-align: left;
 }
