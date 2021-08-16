@@ -6,7 +6,7 @@ body {
   /* padding-top: 50px; */
   padding: 10px;
 }
-img {
+/* img {
   height: 180px;
   width: 170px;
   border-radius: 50%;
@@ -14,10 +14,18 @@ img {
   margin: auto;
   /* rotate: right; */
   transform: rotate(270deg);
-  margin-top: 50px;
+  margin-top: 50px; */
 }
-h1,
+/* h1,
 span {
   display: block;
+  text-align: center; */
+}
+header{
   text-align: center;
+  background-color: maroon;
+  color: white;
+  font-size: 3em;
+  font-family: cursive;
+
 }
