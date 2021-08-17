@@ -1,41 +1,13 @@
-body {
-  border: 3px inset purple;
-  margin: 0;
-  height: 200vh;
-  box-sizing: border-box;
-  /* padding-top: 50px; */
-  padding: 10px;
+h1 {
+  color: blueviolet;
+  background-color: gray;
 }
-/* img {
-  height: 180px;
-  width: 170px;
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  /* rotate: right; */
-  /* transform: rotate(270deg);
-  /* margin-top: 50px; */  
-}
-/* h1,
-span {
-  display: block;
-  text-align: center; */
-}
-header{
-  text-align: center;
-  background-color: maroon;
-  color: white;
-  font-size: 3em;
-  font-family: cursive;
-}
-section{
-  text-align: left;
-  background-color: teal;
-}
-article{
-  text-align: right;
-  background-color: tomato;
-}
-footer{
-  text-align: left;
+aside {
+  width: 120%;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  float: left;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: normal;
+  color: blueviolet;
 }
