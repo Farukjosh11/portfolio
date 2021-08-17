@@ -1,12 +1,12 @@
 h1 {
   color: blueviolet;
-  background-color: gray;
+  background-color: whitesmoke;
 }
 aside {
   width: 120%;
   padding-right: 0.5rem;
   margin-right: 0.5rem;
-  float: left;
+  float: right;
   box-shadow: inset 5px 0 5px -5px #29627e;
   font-style: normal;
   color: blueviolet;
