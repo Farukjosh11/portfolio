@@ -1,7 +1,3 @@
-h1 {
-  color: blueviolet;
-  background-color: whitesmoke;
-}
 aside {
   width: 120%;
   padding-right: 0.5rem;
@@ -10,4 +6,19 @@ aside {
   box-shadow: inset 5px 0 5px -5px #29627e;
   font-style: normal;
   color: blueviolet;
+}
+h1 {
+  color: blueviolet;
+  background-color: whitesmoke;
+}
+div {
+  color: blueviolet;
+  font-size: 0.5em;
+}
+#ello {
+  width: 200%;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px white;
 }
