@@ -1,24 +1,75 @@
-aside {
-  width: 120%;
-  padding-right: 0.5rem;
-  margin-right: 0.5rem;
-  float: right;
-  box-shadow: inset 5px 0 5px -5px #29627e;
-  font-style: normal;
-  color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1 {
-  color: blueviolet;
-  background-color: whitesmoke;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-div {
-  color: blueviolet;
-  font-size: 0.5em;
+
+body > h1 {
+  color: whitesmoke;
+  background-color: blueviolet;
+  font-size: 4em;
+  padding: 30px 10px;
+  margin-bottom: 10px;
 }
-#ello {
-  width: 200%;
-  padding-right: 0.5rem;
-  margin-right: 0.5rem;
+body > div {
+  display: flex;
+  gap: 10px;
+}
+body > div > aside {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 20vw;
+  /* display: inline-block; */
+
+  /* padding-right: 0.5rem; */
+  /* margin-right: 0.5rem; */
+  /* float: left; */
+  /* box-shadow: inset 5px 0 5px -5px #29627e; */
+  /* font-style: normal; */
+  /* color: blueviolet; */
+  background-color: blueviolet;
+}
+
+a {
+  color: rgb(235, 228, 235);
+}
+a:hover {
+  color: rgb(184, 178, 184);
+}
+
+body > div > div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* float: right; */
+  /* display: inline-block; */
+  text-align: justify;
+  width: 80vw;
+
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+div:nth-of-type(3) {
+  /* color: blueviolet;
+  font-size: 0.5em; */
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+
+  border-radius: 10px;
+  margin-right: 3px;
+
   float: right;
   box-shadow: inset 5px 0 5px -5px white;
+}
+
+form {
+  background-color: blueviolet;
 }
