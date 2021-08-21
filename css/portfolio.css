@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-bottom: 500px;
 }
 
 body > h1 {
@@ -54,10 +55,6 @@ body > div > div {
   line-height: 1.7em;
 }
 
-div:nth-of-type(3) {
-  /* color: blueviolet;
-  font-size: 0.5em; */
-}
 img {
   width: 200px;
   height: 200px;
@@ -72,4 +69,11 @@ img {
 
 form {
   background-color: blueviolet;
+  margin-top: 10px;
+  padding: 20px 10px;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  font-size: 1.2em;
 }
